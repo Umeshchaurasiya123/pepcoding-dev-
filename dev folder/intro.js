@@ -1,18 +1,21 @@
 //variable declartion with let var and const
 
 // var abcd;//first the variable is initialized
-// with undefined
+// with undefined value
 //here undefinded is data type 
 //type of data type in java script is null, undefiend,
 //Boolean,String,Number this is primitive data type 
 //Array,Object,function, are refrence ddata typeof.
 //java script can run in browser with the help of browser enginge 
 //or in local machine with the help of node js
-//note content of javascript can be put inside <script></script> tag 
+//note : content of javascript can be put inside <script></script> tag 
 // or inside javascipt file that is which end with .js
+//and you can link those javascrip file with the help of source attribute inside <script> tage
+
 // var a = 20
 // console.log(a)
-// a = 'Hello'// Dynamic Behaviour of JavaScript means we does not need to specify
+// a = 'Hello'// Dynamic Behaviour of JavaScript means
+// we does not need to specify 
 //the data type of variable
 
 // a = null
@@ -82,6 +85,7 @@
 //    }
    
 //    console.log(c)
+//here we get an error
 
 //Let is blocked scope
 
@@ -113,9 +117,11 @@ let str = 'pepcoders'
 
 //extracting a part of string - slice , substr
 //to extract part of string we user slice() and substr()
-//2 slice(start , end) - returns sliced array from starting index to ending-1
+//2 slice(start , end) - returns sliced array 
+//from starting index to ending-1
 // let slicedStr = str.slice(3 ,7) // last index is excluded
 // console.log(slicedStr)
+//note in java substring and in javascript slice method all do the same work
 
 //substr method
 //substr(start , length) - staring and the length of the word
@@ -124,8 +130,8 @@ let str = 'pepcoders'
 //output code iee 3rd  4th 5th 6th wrold
 
 
-// 3 replace method - expects the word to be replaced as first argument and the replacemnetg as
-//  second argument 
+// 3 replace method - expects the word to be replaced as first argument
+// and the replacing word as  as second argument 
 
 // let sayHello = 'Hello Mukesh'
 // console.log(sayHello) // Hello Mukesh
@@ -146,6 +152,7 @@ let str = 'pepcoders'
 
 
 //concatenation method
+//.concat()
 
 //let firstStr = 'Hello'
 //let secondStr = 'World'
@@ -158,10 +165,11 @@ let str = 'pepcoders'
 //here output is HelloWrold
 
 // Trim Method
-
+//.trim()
 // let text = '   Hello World      '
 // console.log(text)
 // let trimmedText = text.trim()
-//output is remove all the space from start and end inbetin splace remain as itis
+//output is remove all the space from start and end 
+//inbetin splace remain as itis
 
 // console.log(trimmedText)
