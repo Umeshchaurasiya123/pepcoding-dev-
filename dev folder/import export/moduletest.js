@@ -1,3 +1,5 @@
+// here we are importing calulator .js external modual for our use
+
 let calculator=require('D:\\pepcoding_umesh_umesh\\FJP_dev\\Import Export\\calculator.js')
 
 console.log(calculator.addition(2,3))
