@@ -1,1 +1,0 @@
-function writeFileSync is accept two parameters 1st where to write and 2nd what to write
