@@ -1,2 +1,0 @@
-this is a file from where we are going to perform read opration
-for this we are going to use .readFileSync('fielname' ) method here we are appending something
