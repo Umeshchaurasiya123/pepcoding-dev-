@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>My First Hand at Frontend</title>
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <button id="addFolder">Add Folder</button>
+            <button id="addTextFile">Add Text File</button>
+        </div>
+
+        <div id="breadcrumb">
+            <a purpose="path" rid="-1">Root</a>
+        </div>
+
+        <div id="container">
+        </div>
+
+        <div id="app">
+            <div id="app-title-bar"> Title will comes here
+                <div id="win-action">
+                    <span class="material-icons">maximize</span>
+                    <span class="material-icons">fullscreen</span>
+                    <span class="material-icons">close</span>
+                </div>
+
+            </div>
+            <div id="app-menu-bar"></div>
+            <div id="app-body"></div>
+        </div>
+
+        <template id="templates">
+            <div class="folder" rid="" pid="">
+                <span action="rename">rename</span>
+                <span action="delete">delete</span>
+                <span action="view">view</span>
+                <div purpose="name"></div>
+            </div>
+            <div class="text-file" rid="" pid="">
+                <span action="rename">rename</span>
+                <span action="delete">delete</span>
+                <span action="view">view</span>
+                <div purpose="name"></div>
+            </div>
+            <a purpose="path" rid="-1"></a>
+
+            <div purpose="notepad-menu" class="notepad-menu">
+                <p>I am the notepad menu </p>
+            </div>
+            <div purpose="notepad-body" class="notepad-body">
+                <textarea>I am the notepad body</textarea>
+                
+            </div>
+        </template>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
